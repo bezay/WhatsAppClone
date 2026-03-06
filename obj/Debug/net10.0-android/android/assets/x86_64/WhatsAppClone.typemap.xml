@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="WhatsAppClone" mvid="7f87bb9bd5cc4c12bb33499f8cd75ce3">
+  <java-to-managed>
+    <entry java-name="crc646e44634b0ff9c3e0/MainActivity" managed-name="WhatsAppClone.MainActivity, WhatsAppClone" managed-type-token-id="33554452" />
+    <entry java-name="crc646e44634b0ff9c3e0/MainApplication" managed-name="WhatsAppClone.MainApplication, WhatsAppClone" managed-type-token-id="33554453" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc646e44634b0ff9c3e0/MainActivity" managed-name="WhatsAppClone.MainActivity, WhatsAppClone" managed-type-token-id="33554452" />
+    <entry java-name="crc646e44634b0ff9c3e0/MainApplication" managed-name="WhatsAppClone.MainApplication, WhatsAppClone" managed-type-token-id="33554453" />
+  </managed-to-java>
+</api>
