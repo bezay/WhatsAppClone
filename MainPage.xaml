@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhatsAppClone.MainPage">
+
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="WhatsApp"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource Primary}"
+                   VerticalOptions="Center"/>
+        </Grid>
+    </Shell.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Settings" Order="Secondary"/>
+        <ToolbarItem IconImageSource="camera.png" Order="Primary"/>
+    </ContentPage.ToolbarItems>
+
+    <Grid
+        RowDefinitions="*,auto">
+        <ContentView
+            Grid.Row="0"
+            x:Name="PageContent"/>
+        <Grid
+            Grid.Row="1"
+            ColumnDefinitions="auto,auto,auto,auto"
+            ColumnSpacing="45"
+            VerticalOptions="End"
+            HorizontalOptions="Center"
+            Margin="0,0,0,10">
+            <VerticalStackLayout
+                Grid.Column="0"
+                Spacing="10">
+                <Image
+                    HorizontalOptions="Center"
+                    Source="chats.png"/>
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Chats"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout
+             Grid.Column="1"
+             Spacing="10">
+                <Image
+             HorizontalOptions="Center"
+             Source="updates.png"/>
+                <Label
+             HorizontalOptions="Center"
+             Text="Updates"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout
+    Grid.Column="2"
+    Spacing="10">
+                <Image
+        HorizontalOptions="Center"
+        Source="communities.png"/>
+                <Label
+        HorizontalOptions="Center"
+        Text="Communities"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout
+    Grid.Column="3"
+    Spacing="10">
+                <Image
+        HorizontalOptions="Center"
+        Source="calls.png"/>
+                <Label
+        HorizontalOptions="Center"
+        Text="Calls"/>
+            </VerticalStackLayout>
+        </Grid>
+
+    </Grid>
+</ContentPage>
