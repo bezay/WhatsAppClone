@@ -1,4 +1,5 @@
-﻿global using WhatsAppClone.Views;
+﻿global using System.Collections.ObjectModel;
+global using WhatsAppClone.Views;
 global using CommunityToolkit.Mvvm.ComponentModel;
 global using WhatsAppClone.ViewModels;
 global using CommunityToolkit.Maui;

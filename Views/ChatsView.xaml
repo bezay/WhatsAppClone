@@ -1,11 +1,145 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WhatsAppClone.Views.ChatsView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             x:Class="WhatsAppClone.Views.ChatsView"
+             xmlns:viewmodel="clr-namespace:WhatsAppClone.ViewModels"
+             x:DataType="viewmodel:ChatsViewModel"
+             xmlns:model="clr-namespace:WhatsAppClone.Models">
+    <Grid>
+        
+    <ScrollView
+        VerticalScrollBarVisibility="Never">
+        
+    <Grid
+        RowDefinitions="auto,auto,*"
+        RowSpacing="20"
+        Margin="10,0">
+        <Border
+            Grid.Row="0"
+            Stroke="Transparent"
+            Background="{StaticResource Gray100}"
+            StrokeShape="RoundRectangle 20">
+            <SearchBar
+                 Placeholder="Ask Meta AI or Search"/>
+        </Border>
+        <HorizontalStackLayout
+            Spacing="10"
+            Grid.Row="1">
+            <Border
+                WidthRequest="40"
+                HeightRequest="25"
+                StrokeShape="RoundRectangle 15"
+                Stroke="{StaticResource Gray200}"
+                Background="Transparent">
+                <Label Text="all"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+            </Border>
+            <Border
+                WidthRequest="100"
+                HeightRequest="25"
+                StrokeShape="RoundRectangle 15"
+                Stroke="{StaticResource Gray200}"
+                Background="Transparent">
+                <Label Text="unread99+"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+            </Border>
+            <Border
+                WidthRequest="70"
+                HeightRequest="25"
+                StrokeShape="RoundRectangle 15"
+                Stroke="{StaticResource Gray200}"
+                Background="Transparent">
+                        <Label Text="favorites"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/> 
+            </Border>
+            <Border
+                WidthRequest="80"
+                HeightRequest="25"
+                StrokeShape="RoundRectangle 15"
+                Stroke="{StaticResource Gray200}"
+                Background="Transparent">
+                <Label Text="groups 17"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+            </Border>
+        </HorizontalStackLayout>
+        <VerticalStackLayout
+            Grid.Row="2"
+            VerticalOptions="Center"
+            Spacing="20"
+            BindableLayout.ItemsSource="{Binding RecentChats}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate x:DataType="model:ChatList">
+                    <Grid
+                        ColumnDefinitions="auto, *,auto"
+                        ColumnSpacing="20">
+                        <Image
+                            Grid.Column="0"
+                            Source="{Binding ProfilePicture }"/>
+                        <VerticalStackLayout
+                            Grid.Column="1">
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding LastMessage}"/>
+
+                        </VerticalStackLayout>
+                            <VerticalStackLayout
+                                Grid.Column="2">
+                                <Label Text="{Binding DateSent, StringFormat='{0:hh:MM}'}"/>
+                                <Border
+                                    Stroke="Transparent"
+                                    Background="{StaticResource Tertiary}"
+                                    StrokeShape="RoundRectangle 10"
+                                    WidthRequest="20"
+                                    HeightRequest="20">
+                                    <Border.Triggers>
+                                        <DataTrigger TargetType="Border" Binding="{Binding UnreadCount}" Value="0">
+                                            <Setter Property="IsVisible" Value="False"/>
+
+                                        </DataTrigger>
+                                    </Border.Triggers>
+                                    <Label Text="{Binding UnreadCount}"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center"
+                                           TextColor="{StaticResource White}"
+                                           FontAttributes="Bold"/>
+                                </Border>
+
+                            </VerticalStackLayout>
+
+                        </Grid>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </VerticalStackLayout>
+    </Grid>
+        
+    </ScrollView>
+        <VerticalStackLayout
+            Margin="0,0,10,20"
+            Spacing="10"
+            VerticalOptions="End"
+            HorizontalOptions="End">
+            <Border
+                WidthRequest="50"
+                HeightRequest="50"
+                StrokeShape="RoundRectangle 10"
+                Background="{StaticResource Tertiary}">
+                <Border.Shadow>
+                    <Shadow
+                        Opacity="0.6"
+                        Offset="1,1"
+                        Brush="{StaticResource Gray600}"
+                        Radius="10"/>
+                </Border.Shadow>
+                <Image Source="message.png"
+                       Aspect="Center"/>
+            </Border>
+            
+        </VerticalStackLayout>
+        
+        
+    </Grid>
+
 </ContentView>
