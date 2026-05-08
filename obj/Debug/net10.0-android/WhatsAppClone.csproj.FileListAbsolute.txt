@@ -1631,3 +1631,9 @@ D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\stamp\_ResolveLibrar
 D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\r\drawable\camera.png
 D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\WhatsAppClone.sourcelink.json
 D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\r\drawable\message.png
+D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\sp\drawable-hdpi\splash.png
+D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\sp\drawable-mdpi\splash.png
+D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\sp\drawable-xhdpi\splash.png
+D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\sp\drawable-xxhdpi\splash.png
+D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\sp\drawable-xxxhdpi\splash.png
+D:\C#\WhatsAppClone\WhatsAppClone\obj\Debug\net10.0-android\resizetizer\sp\drawable\icon.jpg
