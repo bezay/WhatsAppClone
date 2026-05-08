@@ -36,16 +36,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -538,7 +538,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -2571,16 +2571,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -3073,7 +3073,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -5106,16 +5106,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -5608,7 +5608,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -7641,16 +7641,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -8143,7 +8143,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -10176,16 +10176,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -10649,7 +10649,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -10691,16 +10691,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -11164,7 +11164,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -11206,16 +11206,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -11679,7 +11679,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -11721,16 +11721,16 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.4.0": {
+      "CommunityToolkit.Mvvm/8.4.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
@@ -12194,7 +12194,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/10.0.3": {
+      "Microsoft.NET.ILLink.Tasks/10.0.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -12254,10 +12254,10 @@
         "lib/net10.0/CommunityToolkit.Maui.Core.xml"
       ]
     },
-    "CommunityToolkit.Mvvm/8.4.0": {
-      "sha512": "tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
+    "CommunityToolkit.Mvvm/8.4.2": {
+      "sha512": "WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
       "type": "package",
-      "path": "communitytoolkit.mvvm/8.4.0",
+      "path": "communitytoolkit.mvvm/8.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -12270,6 +12270,8 @@
         "analyzers/dotnet/roslyn4.12/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
         "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
         "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn5.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn5.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
         "build/CommunityToolkit.Mvvm.FeatureSwitches.targets",
         "build/CommunityToolkit.Mvvm.SourceGenerators.targets",
         "build/CommunityToolkit.Mvvm.Windows.targets",
@@ -12280,19 +12282,15 @@
         "buildTransitive/CommunityToolkit.Mvvm.Windows.targets",
         "buildTransitive/CommunityToolkit.Mvvm.WindowsSdk.targets",
         "buildTransitive/CommunityToolkit.Mvvm.targets",
-        "communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+        "communitytoolkit.mvvm.8.4.2.nupkg.sha512",
         "communitytoolkit.mvvm.nuspec",
         "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.dll",
-        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.pdb",
         "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.xml",
         "lib/net8.0/CommunityToolkit.Mvvm.dll",
-        "lib/net8.0/CommunityToolkit.Mvvm.pdb",
         "lib/net8.0/CommunityToolkit.Mvvm.xml",
         "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
-        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
         "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
-        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
@@ -13420,10 +13418,10 @@
         "microsoft.maui.resizetizer.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/10.0.3": {
-      "sha512": "0B6nZyCHWXnvmlB559oduOspVdNOnpNXPjhpWVMovLPAsDVG7A4jJR9rzECf67JUzxP8/ee/wA8clwIzJcWNFA==",
+    "Microsoft.NET.ILLink.Tasks/10.0.7": {
+      "sha512": "AA/yhzFHNtQZXLdqjzujPy25G8EWwGWsAnxOE2zYSBoT/8QHP6ketN3CToD3DFreO653ipUwnKHo22B8AlBMCw==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/10.0.3",
+      "path": "microsoft.net.illink.tasks/10.0.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -13436,7 +13434,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.10.0.3.nupkg.sha512",
+        "microsoft.net.illink.tasks.10.0.7.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net/ILLink.Tasks.deps.json",
         "tools/net/ILLink.Tasks.dll",
@@ -15855,14 +15853,14 @@
       "CommunityToolkit.Mvvm >= 8.*",
       "Microsoft.Extensions.Logging.Debug >= 10.0.3",
       "Microsoft.Maui.Controls >= 10.0.41",
-      "Microsoft.NET.ILLink.Tasks >= 10.0.3"
+      "Microsoft.NET.ILLink.Tasks >= 10.0.7"
     ],
     "net10.0-ios26.2": [
       "CommunityToolkit.Maui >= 14.0.1",
       "CommunityToolkit.Mvvm >= 8.*",
       "Microsoft.Extensions.Logging.Debug >= 10.0.3",
       "Microsoft.Maui.Controls >= 10.0.41",
-      "Microsoft.NET.ILLink.Tasks >= 10.0.3"
+      "Microsoft.NET.ILLink.Tasks >= 10.0.7"
     ]
   },
   "packageFolders": {
@@ -15898,10 +15896,12 @@
       },
       "frameworks": {
         "net10.0-android36.0": {
+          "framework": "net10.0-android36.0",
           "targetAlias": "net10.0-android",
           "projectReferences": {}
         },
         "net10.0-ios26.2": {
+          "framework": "net10.0-ios26.2",
           "targetAlias": "net10.0-ios",
           "projectReferences": {}
         }
@@ -15916,10 +15916,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0-android36.0": {
+        "framework": "net10.0-android36.0",
         "targetAlias": "net10.0-android",
         "dependencies": {
           "CommunityToolkit.Maui": {
@@ -15941,7 +15942,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.3, )",
+            "version": "[10.0.7, )",
             "autoReferenced": true
           }
         },
@@ -15967,7 +15968,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -16244,6 +16245,7 @@
         }
       },
       "net10.0-ios26.2": {
+        "framework": "net10.0-ios26.2",
         "targetAlias": "net10.0-ios",
         "dependencies": {
           "CommunityToolkit.Maui": {
@@ -16265,7 +16267,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.3, )",
+            "version": "[10.0.7, )",
             "autoReferenced": true
           }
         },
@@ -16291,7 +16293,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

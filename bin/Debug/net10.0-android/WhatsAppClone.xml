@@ -4,6 +4,12 @@
         <name>WhatsAppClone</name>
     </assembly>
     <members>
+        <member name="T:WhatsAppClone.ViewModels.ChatsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:WhatsAppClone.ViewModels.ChatsViewModel.RecentChats">
+            <inheritdoc cref="F:WhatsAppClone.ViewModels.ChatsViewModel._recentChats"/>
+        </member>
         <member name="T:WhatsAppClone.Resource">
             <summary>
             Android Resource Designer class.
@@ -129,6 +135,24 @@
             <param name = "easing">The easing function to be used in the animation</param>
             <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
             <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RecentChats">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RecentChats" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RecentChats">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RecentChats" generated properties.</summary>
         </member>
     </members>
 </doc>
